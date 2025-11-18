@@ -5,15 +5,6 @@ import * as Animatable from 'react-native-animatable';
 const { width } = Dimensions.get('window');
 const ITEM_WIDTH = 220 + 20; // card width + marginRight
 
-const zoomIn = {
-  0: { scale: 0.9 },
-  1: { scale: 1 },
-};
-
-const zoomOut = {
-  0: { scale: 1 },
-  1: { scale: 0.9 },
-};
 
 const openSceneViewer = async (modelUrl) => {
   const sceneViewerUrl = `https://arvr.google.com/scene-viewer/1.0?file=${encodeURIComponent(
