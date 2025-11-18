@@ -6,7 +6,7 @@ export default function MapWebView() {
   return (
     <View style={styles.container}>
       <WebView
-        source={{ uri: 'https://arcg.is/Snbba0'}}
+        source={{ uri: 'https://arcg.is/LyL4u'}}
                         style={{ flex: 1 }}
       />
     </View>
